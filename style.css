@@ -1,0 +1,41 @@
+
+.contenedor {
+    background: #fff;
+    padding: 20px;
+
+    width: 350px;
+}
+.contenedor h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.contenedor input[type="text"],
+.contenedor input[type="date"],
+.contenedor input[type="radio"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contenedor input[type="radio"] {
+    width: auto;
+    margin-right: 10px;
+}
+.contenedor button {
+    width: 100%;
+    padding: 10px;
+    background-color: #FF6F00;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.contenedor button:hover {
+    background-color: #e65c00;
+}
+.contenedor label {
+    margin-bottom: 5px;
+    display: block;
+}
